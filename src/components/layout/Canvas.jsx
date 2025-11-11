@@ -2,7 +2,7 @@ import React from 'react';
 import { Outlet } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useRain } from '../../hooks/useRain';
-import SideBar from '../ui/Sidebar';
+import Sidebar from '../ui/Sidebar';
 
 export default function Canvas() {
   const raindrops = useRain();
@@ -63,7 +63,7 @@ export default function Canvas() {
       {/* Layout */}
       <div className="flex flex-col md:flex-row h-screen w-screen relative z-10">
         <div className="flex justify-center md:items-center md:justify-center p-3 md:p-4">
-          <SideBar />
+          <Sidebar />
         </div>
         <main className="w-full h-full flex items-center justify-center p-4">
           <div className="w-full h-full overflow-y-auto">
