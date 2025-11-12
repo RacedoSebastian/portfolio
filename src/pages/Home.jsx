@@ -74,7 +74,7 @@ export default function Home() {
             {t.viewProjects}
           </Link>
           <a
-            href="https://www.canva.com/design/DAGvSuWaoeA/IplctHUXZcmhNzLORCN3ow/view"
+            href="https://www.canva.com/design/DAGxe1YPtCk/aG403KuqF9cyMK-rNBM5nA/view?utm_content=DAGxe1YPtCk&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h9b62ef4110"
             target="_blank"
             rel="noopener noreferrer"
             className="px-5 py-2.5 md:px-6 md:py-3 border border-sky-400 text-sky-400 rounded-lg font-medium hover:bg-sky-500/10 transition-colors focus:outline-none focus:ring-2 focus:ring-sky-400 focus:ring-offset-2 focus:ring-offset-slate-900"
