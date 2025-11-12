@@ -2,7 +2,7 @@ import React from 'react';
 import { Outlet } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { useRain } from '../../hooks/useRain';
-import Sidebar from '../ui/Sidebar';
+import Sidebar from '../ui/SideBar';
 
 export default function Canvas() {
   const raindrops = useRain();
